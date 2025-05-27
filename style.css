@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>D-Mart - Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to D-Mart</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="product.html">Products</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Your One-Stop Shop for Everything</h2>
+      <p>Discover great deals and top-quality products at D-Mart.</p>
+    </section>
+
+    <section class="features">
+      <div class="feature-box">
+        <h3>Affordable Prices</h3>
+        <p>We offer products at prices you'll love.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Top Brands</h3>
+        <p>Shop from the best brands all under one roof.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Trusted Service</h3>
+        <p>Customer satisfaction is our top priority.</p>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Visit Our Stores Today</h2>
+      <p>Experience seamless shopping and unbeatable savings!</p>
+      <a href="product.html" class="btn">View Products</a>
+    </section>
+  </main>
+
+  
+</body>
+</html>
+
