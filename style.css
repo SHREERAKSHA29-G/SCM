@@ -1,51 +1,117 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>D-Mart - Home</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <h1>Welcome to D-Mart</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="product.html">Products</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
 
-  <main>
-    <section class="hero">
-      <h2>Your One-Stop Shop for Everything</h2>
-      <p>Discover great deals and top-quality products at D-Mart.</p>
-    </section>
+header {
+  background: #007b5e;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
 
-    <section class="features">
-      <div class="feature-box">
-        <h3>Affordable Prices</h3>
-        <p>We offer products at prices you'll love.</p>
-      </div>
-      <div class="feature-box">
-        <h3>Top Brands</h3>
-        <p>Shop from the best brands all under one roof.</p>
-      </div>
-      <div class="feature-box">
-        <h3>Trusted Service</h3>
-        <p>Customer satisfaction is our top priority.</p>
-      </div>
-    </section>
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
 
-    <section class="cta">
-      <h2>Visit Our Stores Today</h2>
-      <p>Experience seamless shopping and unbeatable savings!</p>
-      <a href="product.html" class="btn">View Products</a>
-    </section>
-  </main>
+nav {
+  margin-top: 10px;
+}
 
-  
-</body>
-</html>
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Section */
+main {
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  background-color: #e0f7fa;
+  padding: 40px 20px;
+  border-radius: 8px;
+}
+
+.hero h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+
+.feature-box {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+.cta {
+  text-align: center;
+  background-color: #ffe082;
+  padding: 30px 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007b5e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background-color: #005f47;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-box {
+    width: 80%;
+  }
+}
 
